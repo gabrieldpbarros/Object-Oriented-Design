@@ -21,10 +21,10 @@ public class MsgSystem {
         notification.processMsg(msg, noti_type, user);
     }
 
-    public void recieveMsg(Map<String, Map<String, String>> receivers) {
+    public void receiveMsg(Map<String, Map<String, String>> receivers) {
         receivers.forEach((user_name, info_dict) -> {
-            var user = Receiver.getInstance(user_name);
-            System.out.println(user);
+            var user = new Receiver(user_name);
+
             info_dict.forEach((noti_type, msg) -> {
                 this.sendMsg(msg, noti_type, user);
             });

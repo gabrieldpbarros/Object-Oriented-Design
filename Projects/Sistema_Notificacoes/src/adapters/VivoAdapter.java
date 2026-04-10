@@ -4,16 +4,14 @@ import interfaces.SMSAdapter;
 import services.Receiver;
 
 public class VivoAdapter implements SMSAdapter {
-    private SMSVivo provedora;
+    private SMSVivo provider;
 
-    public VivoAdapter (SMSVivo provedora) {
-        this.provedora = provedora;
-    }
+    public VivoAdapter(SMSVivo provider) { this.provider = provider; }
 
     public void sendMsg(Receiver user, String msg) {
         /*
         * Supondo um serviço que utilize o nome do usuário para buscar na chamada de API
         * */
-        this.provedora.enviaMsg(user, msg);
+        this.provider.enviaMsg(user, msg);
     }
 }
