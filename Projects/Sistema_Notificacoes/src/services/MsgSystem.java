@@ -1,12 +1,12 @@
 package services;
 import factories.NotiFactory;
+import interfaces.MsgSystemInterface;
 import java.util.Map;
 
-public class MsgSystem {
+public class MsgSystem implements MsgSystemInterface  {
     private static MsgSystem instance;
     private String sys_name = "UNIFESP_NOTIFICATIONS";
     private String sys_server = "email do professor";
-    private int max_attempts = 3;
 
     private MsgSystem() {} // padrão Singleton
 
