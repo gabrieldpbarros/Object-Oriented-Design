@@ -1,5 +1,6 @@
 package services;
 import factories.NotiFactory;
+import java.util.Map;
 
 public class MsgSystem {
     private static MsgSystem instance;
@@ -15,17 +16,18 @@ public class MsgSystem {
         return instance;
     }
 
-    private void sendMsg(String msg, Receiver user) {
+    private void sendMsg(String msg, String noti_type, Receiver user) {
         var notification = NotiFactory.create();
-        notification.processMsg(msg);
-
-        user.showNotification(notification.getMsg());
+        notification.processMsg(msg, noti_type, user);
     }
 
-    public void recieveMsg(String msg, String[] receivers) {
-        for (String receiver : receivers) {
-            var user = new Receiver(receiver);
-            this.sendMsg(msg, user);
-        }
+    public void recieveMsg(Map<String, Map<String, String>> receivers) {
+        receivers.forEach((user_name, info_dict) -> {
+            var user = Receiver.getInstance(user_name);
+            System.out.println(user);
+            info_dict.forEach((noti_type, msg) -> {
+                this.sendMsg(msg, noti_type, user);
+            });
+        });
     }
 }
