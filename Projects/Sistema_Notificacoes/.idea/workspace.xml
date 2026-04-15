@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39dc6578-f0fd-49d4-a409-61957249eab8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/facade/HomeTheaterFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/interfaces/AmbientLightInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/interfaces/HomeTheaterInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/interfaces/MediaPlayerInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/interfaces/ProjectorInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/interfaces/ReceiverInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/interfaces/SoundSystemInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/interfaces/TVInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/tools/AmbientLight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/tools/MediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/tools/Projector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/tools/Receiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/tools/SoundSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home_Theater/out/production/Home_Theater/tools/TV.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3C3tJI0KCiVXwgfQnFTq4JNJzWz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;proxy__fix&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gabriel/unifesp/5° Termo/ProjOO/Projects/Sistema_Notificacoes&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Sistema_Notificacoes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39dc6578-f0fd-49d4-a409-61957249eab8" name="Changes" comment="" />
+      <created>1775626010672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775626010672</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
