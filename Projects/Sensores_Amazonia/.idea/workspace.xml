@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d9b4cdf-29d9-4b7f-add5-d05dea5c343a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cafeteria/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cafeteria/out/production/Cafeteria/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cafeteria/out/production/Cafeteria/decorators/ProductDecorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cafeteria/out/production/Cafeteria/interfaces/ProductInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cafeteria/out/production/Cafeteria/products/Cappuccino.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cafeteria/out/production/Cafeteria/products/ChantillyTopping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cafeteria/out/production/Cafeteria/products/ChocolateTopping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cafeteria/out/production/Cafeteria/products/CinnamonTopping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cafeteria/out/production/Cafeteria/products/Espresso.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cafeteria/out/production/Cafeteria/products/MilkTopping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cafeteria/out/production/Cafeteria/products/Tea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/ObserverInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/SubjectInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observers/ObserverPoA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observers/ObserverRJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observers/ObserverSJC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observers/ObserverSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subjects/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subjects/Subject.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3CUsxdOu4EE0Q9AJ0BcDFJbGvff" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d9b4cdf-29d9-4b7f-add5-d05dea5c343a" name="Changes" comment="" />
+      <created>1776451731533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776451731533</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
