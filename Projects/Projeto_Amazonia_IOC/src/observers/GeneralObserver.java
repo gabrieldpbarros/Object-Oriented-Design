@@ -44,7 +44,5 @@ public class GeneralObserver implements ObserverInterface {
         this.lastTemps.put(sensorName, ((Sensor) s).geTemp());
         this.lastpHs.put(sensorName, ((Sensor) s).getpH());
         this.lastHumidities.put(sensorName, ((Sensor) s).getAirHumidity());
-
-        showLastUpdate();
     }
 }
