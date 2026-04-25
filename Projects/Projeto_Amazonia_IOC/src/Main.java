@@ -59,12 +59,11 @@ public class Main {
 
         // Atualizações
         System.out.println("--- ATUALIZAÇÕES ---");
-        negro.setTemp(29.9);
+        negro.setTemp(29.9); 
         solimoes.setpH(6.8);
         negro.setAirHumidity(79.3);
         purus.setpH(7.1);
         jurua.setTemp(29.0);
         purus.setAirHumidity(78.0);
-
     }
 }
