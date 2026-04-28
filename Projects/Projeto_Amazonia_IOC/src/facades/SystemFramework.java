@@ -76,7 +76,7 @@ public class SystemFramework {
         double randHumidity = 50.0 + (100.0 - 50.0) * r.nextDouble();
 
         // Seleciona um sensor aleatorio
-        List<String> keys = new ArrayList<>(this.sensorDict.keySet());
+        List<String> keys = new ArrayList<>(this\.sensorDict.keySet());
         int randIndex = r.nextInt(keys.size());
         String selectedKey = keys.get(randIndex);
         var selectedSensor = this.sensorDict.get(selectedKey);
