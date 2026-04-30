@@ -1,10 +1,6 @@
 import interfaces.IReportVisitor;
-import reports.BaseReport;
-import reports.RaceResultsReport;
-import reports.TrainingDeckReport;
-import reports.UmaStatusReport;
+import reports.*;
 import visitors.*;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
