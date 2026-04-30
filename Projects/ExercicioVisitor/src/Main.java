@@ -34,26 +34,30 @@ public class Main {
         // 2. Populando os dados do TrainingDeckReport
         List<String> deck = List.of("Kitasan Black [Speed]", "Super Creek [Stamina]", "Tazuna [Friend]");
         List<String> skills = List.of("Arc Maestro", "Long Distance Corner O", "Straight Recovery");
-
         TrainingDeckReport deckReport = new TrainingDeckReport("Gabriel", deck, skills);
 
         // 3. Populando os dados do RaceResultsReport
         RaceResultsReport raceReport = new RaceResultsReport("Arima Kinen", 1, "Snow", "Heavy");
 
-        // 4. Criando o "Object Structure" do padrão Visitor (uma lista iterável de elementos)
+        // 4. Criando o "Object Structure" do padrão Visitor
         List<BaseReport> relatoriosParaExportar = new ArrayList<>();
         relatoriosParaExportar.add(statusReport);
         relatoriosParaExportar.add(deckReport);
         relatoriosParaExportar.add(raceReport);
 
-        // 5. Instanciando o Visitor específico que queremos usar
-        IReportVisitor docVisitor = new XlsVisitor();
-
-        // 6. Iterando e chamando o accept
+        IReportVisitor docVisitor = new DocVisitor();
+        IReportVisitor htmlVisitor = new HtmlVisitor();
+        IReportVisitor jsonVisitor = new JsonVisitor();
+        IReportVisitor mdVisitor = new MdVisitor();
+        IReportVisitor pdfVisitor = new PdfVisitor();
+        IReportVisitor xlsVisitor = new XlsVisitor();
         for (BaseReport relatorio : relatoriosParaExportar) {
-            // A mágica do Double Dispatch ocorre aqui:
-            // O objeto relatório chama o visit() correspondente ao seu próprio tipo lá dentro da classe Visitor.
             relatorio.accept(docVisitor);
+            relatorio.accept(htmlVisitor);
+            relatorio.accept(jsonVisitor);
+            relatorio.accept(mdVisitor);
+            relatorio.accept(pdfVisitor);
+            relatorio.accept(xlsVisitor);
         }
     }
 }
