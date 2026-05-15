@@ -8,6 +8,9 @@ public class Mediator implements IMediator {
 
     public Mediator(List<BaseColleague> users) {
         this.users = users;
+
+        for (BaseColleague user : users)
+            user.setMediator(this);
     }
 
     public void addUser(BaseColleague user) {
