@@ -1,6 +1,5 @@
 package mediator;
 import colleagues.BaseColleague;
-import colleagues.User;
 import interfaces.IMediator;
 import java.util.List;
 
@@ -28,9 +27,8 @@ public class Mediator implements IMediator {
 
     @Override
     public void messageOperation(String msg, BaseColleague sender) {
-        for (User user : users) {
+        for (BaseColleague user : users)
             if (user != sender)
                 user.recieveMessage(msg);
-        }
     }
 }

@@ -14,4 +14,6 @@ public abstract class BaseColleague implements IColleague {
         this.mediator = mediator;
     }
     public String getName() { return this.name; }
+    public abstract void sendMessage(String msg);
+    public abstract void recieveMessage(String msg);
 }
