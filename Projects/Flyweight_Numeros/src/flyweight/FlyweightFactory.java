@@ -1,12 +1,13 @@
 package flyweight;
+import interfaces.IFlyweight;
 import java.util.HashMap;
 import java.util.Map;
 
-public class NumberFactory {
-    private static Map<String, Number> cache = new HashMap<>();
+public class FlyweightFactory {
+    private static Map<String, IFlyweight> cache = new HashMap<>();
 
-    public static Number getFlyweight(String repeatingState) {
-        Number result = cache.get(repeatingState);
+    public static IFlyweight getNumber(String repeatingState) {
+        var result = cache.get(repeatingState);
         if (result == null) {
             result = new Number(repeatingState);
             cache.put(repeatingState, result);
