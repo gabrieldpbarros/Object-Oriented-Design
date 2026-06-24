@@ -5,6 +5,11 @@ public class Person implements IEntity {
     private int id;
     private String name;
 
+    public Person(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     @Override
     public int getId() { return this.id; }
     public void setId(int id) { this.id = id; }
