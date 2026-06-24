@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface Command {
-    IEntity execute (IEntity arg);
+public interface Command<T, R> {
+    R execute (T arg);
 }
