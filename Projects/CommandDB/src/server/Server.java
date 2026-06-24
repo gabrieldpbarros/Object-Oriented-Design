@@ -27,8 +27,13 @@ public class Server implements IServer {
         this.commands.put("get", new GetCommand(this.database));
     }
 
+    public void save() { this.database.save(); }
+
     @Override
-    public void service(String cmd, IEntity entity) {
-        Command command = (Command) commands.get(cmd);
+    public Object service(String cmd, Arguments args) {
+        Command command = commands.get(cmd);
+        if (command == null)
+            return "Command not found";
+        return command.execute(args);
     }
 }
