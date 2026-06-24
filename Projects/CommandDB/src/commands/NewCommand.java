@@ -13,6 +13,9 @@ public class NewCommand implements Command<Arguments, Void> {
 
     @Override
     public Void execute(Arguments args) {
+        if (args.size() != 2)
+            throw new IllegalArgumentException("Wrong number of arguments. Usage: new <id> <name>");
+
         int id = args.getArg(0);
         String name = args.getArg(1);
         this.database.addEntity(new Person(id, name));
