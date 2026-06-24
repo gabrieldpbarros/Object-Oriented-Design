@@ -1,5 +1,6 @@
 package interfaces;
+import server.Arguments;
 
 public interface IServer {
-    void service(String cmd, IEntity entity);
+    Object service(String cmd, Arguments args);
 }
